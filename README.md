@@ -34,6 +34,6 @@ Teemo is weak against gap closers, as his Move Quick is on a long cooldown.
 
 ### Future
 
-- Computer Vision algorithm for auto-detecting champions/items (`tabled-features/cv-hero-item-detection/`)
-- Transition input from CLI to Voice using Amazon Polly (`tabled-features/amazon-polly-voice-interface/`)
+- Computer Vision algorithm for auto-detecting champions/items, since there are no gamestate APIs available (and no plans from Riot to implement this) (`tabled-features/cv-hero-item-detection/`)
+- Transition input from CLI to Voice using AWS Lex (`tabled-features/amazon-lex-voice-interface/`)
 - Host as a public API or Discord Bot, since most gamers already use this as a natural VX interface
